@@ -1,0 +1,81 @@
+
+float PI = 3.1415;
+//float 	PI = 3.1415p; error
+//float		7PI = 3.1415; error
+float 		_7var = 2.17;
+int 	N  = 100.e+1;
+//int 	N  = 100.e+; error
+//int 	N  = 100.e; error
+char 	ch = 'm';
+//int 	1k; error
+//char 	hex = '\0xFH'; error
+char 	hex = '\0xFF';
+//char 	oct = '\078'; error
+char 	oct = '\077';
+//char 	dec = '\10b'; error
+char 	dec = '\10';
+bool isTrue = true;
+
+int myList[N/2 + 4];
+//{;} - error: expected a declaration
+float N  = 0.1 + W;
+
+/* comment 
+comment
+comment 
+comment */
+
+int test() {
+	i = 0;
+	int i;
+}
+
+void swap(int, int);
+
+void swap(int a, int b) {
+	int temp = a;
+	a = b;
+	b = temp;
+}
+
+float k(int, int); // TODO: NOT ERROR
+float k(int, int);
+float k(int, float);
+float k(float, int, int);
+
+void main() {
+	int testBitshiftLeft = 2 << 3;
+	int testBitshiftRight = 2 >> 3;
+	if(i > 0) {
+		0;
+		if(1) {
+			2;
+		}
+		else {
+			3;
+		}
+	}
+	else 
+		1;
+	i + 1 += ch;
+	-123--;
+	++(PI+1);
+	for(;;){;}
+	int X = -1;
+	swop(X);
+	int Y = myList[N/2 + 1];
+	// comments
+	swap(1,2);
+	k(1,2);
+	float D = 4.4;
+	float L = PI * D;
+	float R = D / 2.0;
+	float S = PI * R * R;
+	int b = 0;
+	for(int i = 0; i < 100; ++i) {
+		b++;
+		--N;
+	}
+	return;
+}
+
